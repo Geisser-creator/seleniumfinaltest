@@ -1,0 +1,13 @@
+<suite name = "NetflixProject">
+    <test name = "NetflixTest" preserve-order="true">
+        <group>
+            <run>
+                <include name = "success"></include>
+                <include name = "failure"></include>
+            </run>
+        </group>
+        <classes>
+            <class name = "Netflix.Prueba_Netflix"/>
+        </classes>
+    </test>
+</suite>
